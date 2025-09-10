@@ -1,0 +1,99 @@
+<?php
+    session_start();
+
+    if (isset($_GET['logout'])) {
+    session_destroy();
+    header("Location: login.php");
+    exit;
+}
+?>
+
+
+<html lang= "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Memorial da Equipe Nouble</title>
+</head>
+<body>
+
+    <header>
+        <div id="navbar">
+                <div id="logo"><img src="imagens.html/logo-halo-reach.png"></div>
+                <div><h1>Halo Reach: Noble Team Memorial</h1></div>
+                <div id="logo"><img src="imagens.html/logo-halo-reach.png"></div>
+        </div>
+
+        <audio controls>
+            <source src="music.html/2-06 Ashes.mp3" type="audio/ogg">
+        </audio> 
+
+    </header>
+
+    <main>
+        
+        <div id="noble">
+
+            <div class="noble">
+
+                <h3>Noble 1 Carter</h3>
+                <img src="imagens.html/noble1-carter.jpg" alt="">
+                <p>Líder da Equipe Noble. Se sacrificou para abrir caminho para Noble 4 e 6 chegarem a Pillar of Autumn. Suas Ultimas palavras foram: "Você está sozinho  Noble, Carter Desligo.</p>
+
+            </div>
+            <div class="noble">
+
+                <h3>Noble 2 Kat</h3>
+                <img src="imagens.html/noble2-kat.jpg" alt="">
+                <p>Braço direito de Carter Noble 1 e a especialista em tecnologia e invasão da equipe, morreu com um tiro de carabina na cabeça de um sniper em um phantom estrategicamente posicionado em cima da rota de fuga da equipe noble durante a fuga. Suas ultimas palavras foram questionando as ultimas ordens recebidas do comando, o questionamento foi interrompido pelo disparo. </p>
+
+            </div>
+            <div class="noble">
+                
+                <h3>Noble 3 Jun</h3>
+                <img src="imagens.html/noble3-jun.webp" alt="">
+                <p>Noble 3 Jun é o sniper da equipe Noble e também único sobrevivente dos eventos de Reach. Ele escapou junto a Halsey e futuramente veio a participar do projeto Spartan 4 como recrutador.</p>
+
+            </div>
+            <div class="noble">
+                
+                <h3>Noble 4 Emile</h3>
+                <img src="imagens.html/noble4-emile.jpg" alt="">
+                <p>Noble 4 Emile era o membro mais assustador da equipe Noble, ele morreu perfurado no meio do peito por uma lâmina de plasma, porém antes de morrer ele matou o Elite que havia pego ele desprevinido. As últimas palavras foram "estou pronto, e você?”.</p>
+
+            </div>
+            <div class="noble">
+                
+                <h3>Noble 5 Jorge</h3>
+                <img src="imagens.html/noble5-jorge.webp" alt="">
+                <p>Noble 5 Jorge era o único Spartan 2 da equipe e também o único que nasceu em Reach. Jorge morreu se sacrificando para ativar a "bomba" na nave covenant "Longa Noite de Consolo" para derrubá-la. Ele acreditava que venceriam a guerra com isso, porém seu esforço foi em vão, pois logo em sequência uma frota de naves do mesmo porte chegaram em Reach. Suas últimas palavras foram "Diga a eles para fazerem valer a pena".</p>
+
+            </div>
+            <div class="noble">
+                
+                <h3>Noble 6</h3>
+                <img src="imagens.html/noble6.webp" alt="">
+                <p>Noble 6, o membro mais novo da equipe foi o último a morrer,após entregar a Ia Cortana para o comandante da Pillar of Autumn ele ficou no planeta para garantir uma rota de fuga segura a Pillar of Autumn. Ele consegue cumprir sua missão. Se encontrando sozinho em Reach, vendo o planeta ser completamente tomado e pouco a pouco sucumbindo ao covenant, Noble 6 sem opções cai de cabeça na batalha e morre.</p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p><a href="?logout=1">Sair</a></p>
+
+        <div id= "rodape">
+            <div id="Unsc-logo"><img src="imagens.html/Unsc-logo.png"> </div>
+            <p>Todos os direitos reservados a UNCS</p>
+            <div id="Unsc-logo"><img src="imagens.html/Unsc-logo.png"> </div>
+        </div>
+    </footer>
+
+</body>
+</html>
