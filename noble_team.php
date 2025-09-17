@@ -85,14 +85,14 @@
     </main>
 
     <footer>
-
-        <p><a href="?logout=1">Sair</a></p>
-
         <div id= "rodape">
             <div id="Unsc-logo"><img src="imagens.html/Unsc-logo.png"> </div>
             <p>Todos os direitos reservados a UNCS</p>
             <div id="Unsc-logo"><img src="imagens.html/Unsc-logo.png"> </div>
         </div>
+
+        <a href="?logout=1">Sair</a>
+
     </footer>
 
 </body>

@@ -58,7 +58,6 @@ h1,h3,p {
     background-color: rgb(4, 105, 172);
     flex: 0 1 calc(33.33% - 20px);
     box-sizing: border-box;
-
 }
 
 #rodape{
